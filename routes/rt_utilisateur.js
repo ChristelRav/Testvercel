@@ -77,7 +77,9 @@ const getUtilisateurConnecte = async (req, res) => {
         res.status(500).json({ message: 'Erreur serveur' });
     }
 };
-
+router.get('/test', async (req, res) => {
+    res.status(200).json({ message: 'API fonctionne correctement !' });
+  });
   
 // liste les profils
 router.get('/listProfil', async (req, res) => {
