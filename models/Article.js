@@ -5,5 +5,5 @@ const articleSchema = new mongoose.Schema({
   prix: { type: Number, required: true }
 });
 
-const Article = mongoose.model("Article", articleSchema);
+const Article = mongoose.model("Article", articleSchema,"article");
 module.exports = Article;
