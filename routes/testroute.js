@@ -5,7 +5,7 @@ const Article = require("../models/Article"); // Chemin vers ton modèle Article
 
 // Route test
 router.get("/test", (req, res) => {
-  res.json({ message: "API OK fonctionne correctement !" });
+  res.json({ message: "API TEST 4 fonctionne correctement !" });
 });
 
 router.get('/articles', async (req, res) => {
