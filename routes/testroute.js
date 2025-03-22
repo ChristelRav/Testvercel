@@ -1,6 +1,8 @@
 const express = require("express");
 const router = express.Router();
 
+const Article = require("../models/Article"); // Chemin vers ton modèle Article
+
 // Route test
 router.get("/test", (req, res) => {
   res.json({ message: "API fonctionne correctement !" });
